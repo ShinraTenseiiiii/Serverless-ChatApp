@@ -6,6 +6,7 @@ const AuthPage = (props) => {  // the prop is the onAuth funtion from App.jsx wh
       axios.post('http://localhost:3001/authenticate', 
     {"username": value})
     .then((response) => props.onAuth({ ...response.data, secret : value})) 
+    .catch((error) => console.log(error));
       
     };
   
