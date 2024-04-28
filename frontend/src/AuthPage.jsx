@@ -13,7 +13,7 @@ const AuthPage = (props) => {  // the prop is the onAuth funtion from App.jsx wh
     return (
       <div className="background">
         <form onSubmit={onSubmit} className="form-card">
-          <div className="form-title">Welcome 👋</div>
+          <div className="form-title">Login 💬</div>
   
           <div className="form-subtitle">Set a username to get started</div>
   
